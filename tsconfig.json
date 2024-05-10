@@ -1,0 +1,5 @@
+{
+  "extends": "@dl/ts/base",
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["**/.ts/**"]
+}

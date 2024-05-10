@@ -1,0 +1,8 @@
+{
+  "extends": "@dl/ts/base",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "types": ["vinxi/types/client"]
+  }
+}
