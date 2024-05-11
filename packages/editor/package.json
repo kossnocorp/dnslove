@@ -1,0 +1,11 @@
+{
+  "name": "@dl/editor",
+  "private": true,
+  "type": "module",
+  "version": "0.0.0",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "solid-js": "^1.8.17",
+    "@dl/dns": "workspace:*"
+  }
+}

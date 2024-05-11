@@ -20,6 +20,9 @@ importers:
 
   apps/web:
     dependencies:
+      '@dl/editor':
+        specifier: workspace:*
+        version: link:../../packages/editor
       '@dl/ts':
         specifier: workspace:*
         version: link:../../packages/ts
@@ -42,6 +45,17 @@ importers:
       tailwindcss:
         specifier: ^3.4.3
         version: 3.4.3
+
+  packages/dns: {}
+
+  packages/editor:
+    dependencies:
+      '@dl/dns':
+        specifier: workspace:*
+        version: link:../dns
+      solid-js:
+        specifier: ^1.8.17
+        version: 1.8.17
 
   packages/ts:
     dependencies:
