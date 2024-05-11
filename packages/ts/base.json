@@ -4,6 +4,7 @@
   "compilerOptions": {
     "skipLibCheck": true,
     "target": "ESNext",
+    "moduleResolution": "NodeNext",
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true
